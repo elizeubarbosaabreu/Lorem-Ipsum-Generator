@@ -44,6 +44,7 @@ while True:
         for linha in range(0, int(values['-paragrafos-'])):
             text_inicial+=lorem_ipsum_create()+'\n\n'
             window['-texto-'].update(text_inicial)
+        text_inicial = ''
 
     if event in ('Novo Ctrl-N'):
         window['-texto-'].update(lorem_ipsum_create())
