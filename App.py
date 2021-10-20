@@ -96,6 +96,6 @@ O texto já está na área de transferência de seu computador, cole onde quiser
         webbrowser.open('https://www.linkedin.com/in/elizeu-barbosa-abreu-69965b218/')
                  
     if event in ('Copiar Texto'):
-        webbrowser('https://github.com/elizeubarbosaabreu/Lorem-Ipsum-Generator.git')
+        webbrowser.open('https://github.com/elizeubarbosaabreu/Lorem-Ipsum-Generator.git')
         
 window.close()
