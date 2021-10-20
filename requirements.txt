@@ -1,0 +1,4 @@
+clipboard==0.0.4
+lorem==0.1.1
+pyperclip==1.8.2
+PySimpleGUI==4.51.2
